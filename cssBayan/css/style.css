@@ -15,8 +15,9 @@ svg {
 }
 .wrapper {
     text-align: center;
-    max-width: 1200px;
+    max-width: 1240px;
     margin: 0 auto;
+    padding: 0px 20px 0px 20px;
 }
 .header__title {
     font-weight: bold;
@@ -30,6 +31,9 @@ svg {
 .memes__content {
     border-top: 3px solid #000;
     margin-bottom: 20px;
+    overflow: hidden;
+    height: 44px;
+    cursor: pointer;
 }
 .memes__content__top {
     display: flex;
