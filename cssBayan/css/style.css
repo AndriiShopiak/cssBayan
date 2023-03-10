@@ -8,6 +8,7 @@ body {
 }
 svg {
     width: 32px;
+    transition: all .3s ease;
 }
 .memes__list .memes__content__top .first {
     transform: rotate(45deg);
@@ -43,6 +44,9 @@ svg {
 }
 .memes__content:hover {
     height: 500px;
+}
+.memes__content:hover svg {
+    transform: rotate(45deg);
 }
 .memes__content__top {
     display: flex;
