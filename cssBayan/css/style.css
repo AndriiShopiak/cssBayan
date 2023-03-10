@@ -13,6 +13,9 @@ svg {
 .memes__list .memes__content__top .first {
     transform: rotate(45deg);
 }
+.active {
+    height: 500px;
+}
 /* ---HEADER------------------------ */
 .header {
     padding-top: 50px;
