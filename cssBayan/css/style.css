@@ -9,6 +9,9 @@ body {
 svg {
     width: 32px;
 }
+.memes__list .memes__content__top .first {
+    transform: rotate(45deg);
+}
 /* ---HEADER------------------------ */
 .header {
     padding-top: 50px;
@@ -30,14 +33,21 @@ svg {
 }
 .memes__content {
     border-top: 3px solid #000;
-    margin-bottom: 20px;
     overflow: hidden;
     height: 44px;
     cursor: pointer;
+    transition: all 1s ease;
+}
+.memes__content:first-child {
+    height: 300px;
+}
+.memes__content:hover {
+    height: 500px;
 }
 .memes__content__top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .mems__content__title {
     font-size: 30px;
