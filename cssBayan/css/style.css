@@ -29,6 +29,7 @@ svg {
 }
 .memes__content {
     border-top: 3px solid #000;
+    margin-bottom: 20px;
 }
 .memes__content__top {
     display: flex;
