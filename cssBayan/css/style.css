@@ -49,9 +49,6 @@ svg {
 .memes__content:hover svg {
     transform: rotate(45deg);
 }
-.wrapper:hover svg {
-    opacity: 1;
-}
 .memes__content__top {
     display: flex;
     justify-content: space-between;
