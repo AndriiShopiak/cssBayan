@@ -9,12 +9,13 @@ body {
 svg {
     width: 32px;
     transition: all .3s ease;
+    opacity: 0;
 }
 .memes__list .memes__content__top .first {
     transform: rotate(45deg);
 }
 .active {
-    height: 500px;
+    height: 500px !important;
 }
 /* ---HEADER------------------------ */
 .header {
@@ -42,8 +43,14 @@ svg {
     cursor: pointer;
     transition: all 1s ease;
 }
-.memes__content:first-child {
-    height: 300px;
+.memes__content:hover {
+    height: 500px !important;
+}
+.memes__content:hover svg {
+    transform: rotate(45deg);
+}
+.wrapper:hover svg {
+    opacity: 1;
 }
 .memes__content__top {
     display: flex;
