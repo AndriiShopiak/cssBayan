@@ -15,11 +15,11 @@ svg {
     transform: rotate(45deg);
 }
 .active {
-    height: 500px !important;
+    height: 25rem !important;
 }
 /* ---HEADER------------------------ */
 .header {
-    padding-top: 50px;
+    padding-top: 5rem;
 }
 .wrapper {
     text-align: center;
@@ -29,22 +29,19 @@ svg {
 }
 .header__title {
     font-weight: bold;
-    font-size: 50px;
-    padding-bottom: 20px;
+    font-size: 3rem;
+    padding-bottom: 4%;
 }
 /* ---MEMES--LIST-------------- */
-.memes__list {
-    padding-top: 20px;
-}
 .memes__content {
     border-top: 3px solid #000;
     overflow: hidden;
-    height: 44px;
+    height: 3rem;
     cursor: pointer;
     transition: all 1s ease;
 }
 .memes__content:hover {
-    height: 500px !important;
+    height: 25rem !important;
 }
 .memes__content:hover svg {
     transform: rotate(45deg);
@@ -55,12 +52,12 @@ svg {
     align-items: center;
 }
 .mems__content__title {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 .mems__content__image {
     
 }
 .mems__content__image img {
-    max-width: 300px;
+    max-width: 17rem;
 }
