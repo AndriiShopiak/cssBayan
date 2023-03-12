@@ -9,7 +9,6 @@ body {
 svg {
     width: 2rem;
     transition: all .3s ease;
-    opacity: 0;
 }
 .memes__list .memes__content__top .first {
     transform: rotate(45deg);
