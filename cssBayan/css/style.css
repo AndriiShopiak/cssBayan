@@ -8,6 +8,7 @@ body {
 }
 svg {
     width: 2rem;
+    opacity: 0;
     transition: all .3s ease;
 }
 .memes__list .memes__content__top .first {
@@ -42,13 +43,19 @@ svg {
 .memes__content:hover {
     height: 25rem !important;
 }
-.memes__content:hover svg {
+.memes__content:hover .memes__content__flex svg {
     transform: rotate(45deg);
+    opacity: 1;
 }
-.memes__content__top {
+.memes__content__flex {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+}
+.memes__content__top {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
 }
 .mems__content__title {
     font-size: 2rem;
