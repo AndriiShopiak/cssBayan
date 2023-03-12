@@ -67,3 +67,20 @@ svg {
 .mems__content__image img {
     max-width: 17rem;
 }
+
+@media (max-width: 821px) {
+    .header__title {
+        font-size: 2.5rem;
+    }
+    .mems__content__title {
+        font-size: 1.5rem;
+    }
+    svg {
+        display: none;
+    }
+}
+@media (max-width: 420px) {
+    .mems__content__image img {
+        max-width: 15rem;
+    }
+}
