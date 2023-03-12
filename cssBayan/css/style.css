@@ -84,3 +84,11 @@ svg {
         max-width: 15rem;
     }
 }
+@media (max-width: 350px) {
+    .header__title {
+        font-size: 2rem;
+    }
+    .mems__content__title {
+        font-size: 1rem;
+    }
+}
