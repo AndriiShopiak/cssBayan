@@ -13,7 +13,7 @@ function addActive (index) {
     memesBlock[index].classList.add('active');
 }
 function closeItem(index) {
-    memesBlock[index].classList.toggle('active');
+    memesBlock[index].classList.remove('active');
 }
 for (let i = 0; i < memesBlock.length; i++) {
     memesImages[i].addEventListener('click', () => {
