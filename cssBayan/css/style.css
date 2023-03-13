@@ -68,6 +68,11 @@ body {
     height: 25rem; 
     text-align: center;
   }
+  input[name='panel']:hover + .collapsible {
+    overflow: hidden;
+    height: 25rem; 
+    text-align: center;
+  }
   .collapsible img {
     width: 27%;
   }
