@@ -39,10 +39,11 @@ body {
   }
   
   .collapsible {
+    margin-top: 1rem;
     display: block;
     padding: 0 1em;
     width: 100%;
-    background: hsl(0, 1%, 90%);
+    background: hsl(0, 0%, 100%);
   }
   
   input[name='panel'] + .collapsible {
