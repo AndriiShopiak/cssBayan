@@ -48,6 +48,7 @@ body {
   input[name='panel'] + .collapsible {
     overflow: hidden;
     height: 0;
+    text-align: center;
   
     -webkit-transition: height 1s ease;
     -moz-transition: height 1s ease;
@@ -57,7 +58,11 @@ body {
   }
   
   input[name='panel']:checked + .collapsible {
-    overflow: auto;
-    height: 200px; /* needs a numeric value here to keep transition */
+    overflow: hidden;
+    height: 25rem; 
+    text-align: center;
+  }
+  .collapsible img {
+    width: 20%;
   }
   
