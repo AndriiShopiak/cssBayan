@@ -94,11 +94,22 @@ body {
   @media (max-width: 700px) {
     .collapsible img {
       width: 50%;
+    }
+  }
+  @media (max-width: 500px) {
+    label {
+      font-size: 1em;
+    }
+    input[name='panel']:checked + .collapsible {
+      height: 20rem;
   }
   }
   @media (max-width: 380px) {
+    .accord__title {
+      font-size: 1rem;
+    }
     .collapsible img {
       width: 58%;
-  }
+    }
   }
   
