@@ -19,7 +19,10 @@ body {
     max-width: 70rem;
     margin: 0 auto;
   }
-  
+  svg {
+    height: 2rem;
+    fill: #fff;
+  }
   input[name='panel'] {
     display: none;
   }
@@ -36,6 +39,8 @@ body {
     font-size: 1.8em;
     line-height: 1em;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
     transition: all .6s ease;
   }
   
