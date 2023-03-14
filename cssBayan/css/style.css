@@ -45,7 +45,9 @@ body {
     justify-content: space-between;
     transition: all .6s ease;
   }
-  
+  .without:hover {
+    background: #fff;
+  }
   label:hover {
     background: hsl(200, 96%, 40%);
   }
