@@ -60,6 +60,9 @@ body {
     width: 100%;
     background: hsl(0, 0%, 100%);
   }
+  .collapsible:hover  {
+    cursor: pointer;
+  }
   
   input[name='panel'] + .collapsible {
     overflow: hidden;
